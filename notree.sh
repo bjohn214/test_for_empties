@@ -39,5 +39,5 @@ for item in 10 100 1000 50 500 5000; do #loop over each pionGun directory
 	
 	echo -e "This directory contains $i empty .root files out of $file_num \n$(cat $outputFile)" > $outputFile #writes string I want, then cats the rest of the .txt file then overwrites original file. 	
 	
-	rm filter_rootls_output.tx	
+	rm filter_rootls_output.txt	
 done
